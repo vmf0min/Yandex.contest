@@ -12,8 +12,6 @@
 #include <string>
 
 int main() {
-  std::cout << "\x1b[2J";
-
   std::string str{"abadddaaddddddbdddccaa"};
   std::map<char, size_t> dictionary;
   for (auto&& i : str) ++dictionary[i];
